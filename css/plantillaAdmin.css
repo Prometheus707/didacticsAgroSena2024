@@ -1,0 +1,293 @@
+
+
+#miBoton {
+  padding:9px ;
+  background: light-gray;
+  color:black;
+  
+}
+
+#miBoton:hover {
+  padding: 9px;
+  background-color: #29a900;
+   color: white;
+ border-top: #E3DCDA  1px solid;
+ border-bottom: #E3DCDA  1px solid;
+}
+#miBoton:active {
+  padding:10px;
+  background-color: #29a900;
+  color: white;
+
+}
+/* .navimmg{
+
+	 color: #Ff6b00;
+
+}
+
+ .navimmg:hover{
+		  color: white;
+	 } */
+
+
+
+
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.page-content {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  transition: all 0.4s;
+}
+
+/* for toggle behavior */
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}
+
+.colorNav{
+
+background: #29a900;
+	/* background:#Ff6b00 ; */
+	 /* opacity:0.9; */
+}
+
+
+body {
+  /* background: #599fd9; */
+  /* background: -webkit-linear-gradient(to right, #599fd9, #c2e59c); */
+  /* background: linear-gradient(to right, #599fd9, #c2e59c); */
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:white;
+  width:100%;
+  color:black;
+}
+
+
+
+.subirn{
+	margin-top:1%;
+}
+.subirn{
+	margin-top:0%;
+}
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed #fff;
+}
+
+.text-uppercase {
+  letter-spacing: 0.1em;
+}
+
+.text-gray {
+  color: #aaa;
+}
+.contenedorC{
+
+	width:90%;
+ background:white;
+  position: relative;
+min-width: 1px;
+		margin: 0 auto;
+		 border-bottom: #E3DCDA  2px solid ;
+
+ 	border-right: 1px solid #ccc;
+  border-top: 1px solid  #ccc;
+   border-left: 1px solid #ccc;
+
+}
+
+
+
+.botonInicio {
+	max-width:100%;
+	min-width:100%;
+	  font-size:5vw;
+   font-size:2vh;
+}
+.botonInicio1 {
+	max-width:30vw;
+	max-width:100%;
+	min-width:100%;
+	  font-size:5vw;
+   font-size:2vh;
+}
+  footer  {
+
+  background: #5B5D5E;
+  max-height: 10vh;
+  min-height:10vw;
+	    font-size:3vw;
+   font-size:2vh;
+  color: white;
+width:100%;
+
+
+
+  }
+
+  .divFp{
+	    column-span:all;
+		overflow: hidden;
+		 position: relative;
+		 /* background:orange; */
+
+
+
+
+
+  }
+  .div1F{
+	  float:left;
+
+	  /* background:yellow; */
+		margin-top:2%;
+	width:20%;
+	height:15vh;
+	position:relative;
+
+  }
+
+  .div2F{
+	    float:right;
+/* background:red; */
+		margin-top:2%;
+	width:20%;
+		height:15vh;
+
+  }
+   .div3F{
+	      float:left;
+	  /* background:green; */
+
+		margin-top:2%;
+	width:60%;
+	height:15vh;
+	text-align:center;
+	font-size:2vh;
+	font-size:1vw;
+  }
+.imagfooter{
+	max-width:35%;
+	display:block;
+margin:auto;
+
+}
+
+
+.imag2footer{
+	max-width:85%;
+		display:block;
+margin:auto;
+
+}
+/* botones engrandecer tdas */
+.tdasbtn:hover{
+  transform: scale(1.11);
+  transition: all 0.5s
+}
+/* wstilo paginado*/
+
+
+
+.pagination  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFC529;
+}
+
+.pagination li {
+  float: left;
+}
+
+.pagination li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#bo li a:hover {
+  background-color: #FABC15;
+  color: white;
+}
+
+/* estilo de tabla*/
+@media screen and (max-width: 500px) {
+       table {
+           width:100%;
+
+
+      }
+      .pl{
+        height: 200px;
+      }
+      .ps{
+        height: 250px;
+      }
+      .tablamen table{
+
+        width: 100%;
+
+      }
+      .bordes{
+        width: 100%;
+      }
+    }
+    .zoom {
+       max-width: 90%;
+       min-width: 80%;
+        max-height: 30vh;
+    min-height: 10vh;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+    }
+    .transition {
+        -webkit-transform: scale(1.8);
+        -moz-transform: scale(1.8);
+        -o-transform: scale(1.8);
+        transform: scale(1.8);
+
+    }
+  

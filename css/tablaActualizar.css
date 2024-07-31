@@ -1,0 +1,100 @@
+.columna {
+    background: #2191fb;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* plantilla de actualizar tda*/
+
+.pequeña{
+  display: block;
+  width: 100%;
+  margin: 7% auto;
+  background: white;
+  margin-top:0;
+  }
+
+#con{
+padding-left: 10%;
+font-size: 20px;
+}
+
+#inp input{
+  font-size: 20px;
+  width: 80%;
+}
+#inp select{
+  font-size: 20px;
+  width: 80%;
+}
+footer  {
+	
+  background: #5B5D5E;
+  height: 23vh;
+	    font-size:3vw;
+   font-size:2vh;
+  color: white;
+width:100%;
+    
+ 
+ 
+  }
+  
+  .divFp{
+	    column-span:all;
+		overflow: hidden;
+		 position: relative;
+		 /* background:orange; */
+
+
+
+
+
+  }
+  .div1F{
+	  float:left;
+
+	  /* background:yellow; */
+		margin-top:2%;
+	width:20%;
+	height:15vh;
+	position:relative;
+
+  }
+  
+  .div2F{
+	    float:right;
+/* background:red; */
+		margin-top:2%;
+	width:20%;
+		height:15vh;
+	
+  }
+   .div3F{
+	      float:left;
+	  /* background:green; */
+	
+		margin-top:2%;
+	width:60%;
+	height:15vh;
+	text-align:center;
+  }
+.imagfooter{
+	max-width:35%;
+	display:block;
+margin:auto;
+	
+}
+
+
+.imag2footer{
+	max-width:85%;
+		display:block;
+margin:auto;
+	
+} 
+
+ 
+  
+  
+  
